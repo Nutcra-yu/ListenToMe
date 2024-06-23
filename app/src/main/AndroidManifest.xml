@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="false"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ListenToMe"
+        tools:targetApi="31">
+        <activity
+            android:name=".launch.SplashScreenActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".launch.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".launch.RegisterActivityOld"
+            android:exported="false" />
+        <activity
+            android:name=".launch.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cognitiveTraining.Words.WordsStudyActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".cognitiveTraining.ContentChooseActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ListenToMe.ListenToMeActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".cognitiveTraining.Sentence.SentenceStudyActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".cognitiveTraining.Phrase.PhraseStudyActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Setting.SettingActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".cognitiveTraining.Words.WordsGameActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LanguageAssess.AccessActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LanguageAssess.AccessResultActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".cognitiveTraining.CognitiveActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LanguageAssess.LanguageAssessActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+
+        </activity>
+    </application>
+
+</manifest>

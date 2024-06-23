@@ -1,0 +1,32 @@
+[
+  {
+    "name": "爸爸",
+    "pinYin": "ba ba ",
+    "ENG": "Father"
+  },
+  {
+    "name": "妈妈",
+    "pinYin": "ma ma",
+    "ENG": "Mother"
+  },
+  {
+    "name": "弟弟",
+    "pinYin": "di di",
+    "ENG": "YoungerBrother"
+  },
+  {
+    "name": "妹妹",
+    "pinYin": "mei mei",
+    "ENG": "YoungerSister"
+  },
+  {
+    "name": "哥哥",
+    "pinYin": "ge ge",
+    "ENG": "OlderBrother"
+  },
+  {
+    "name": "姐姐",
+    "pinYin": "jie jie",
+    "ENG": "OlderSister"
+  }
+]

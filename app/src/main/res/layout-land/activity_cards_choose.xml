@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cognitiveTraining.CardsChooseActivity"
+    tools:ignore="MissingDefaultResource"
+    android:background="#8caafc">
+
+    <ImageView
+        android:id="@+id/iv_back_CardsChooseActivity"
+        style="@style/btn_back"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/part1_CardsWordsActivity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/part2_CardsWordsActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part1_1_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/part1_2_CardsWordsActivity"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part1_1_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part1_1_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part1_2_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toRightOf="@id/part1_1_CardsWordsActivity"
+            app:layout_constraintRight_toLeftOf="@id/part1_3_CardsWordsActivity"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part1_2_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part1_2_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part1_3_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toRightOf="@id/part1_2_CardsWordsActivity"
+            app:layout_constraintRight_toLeftOf="@id/part1_4_CardsWordsActivity"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part1_3_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part1_3_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part1_4_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            app:layout_constraintLeft_toRightOf="@id/part1_3_CardsWordsActivity"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part1_4_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part1_4_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/part2_CardsWordsActivity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/part1_CardsWordsActivity"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part2_1_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/part2_2_CardsWordsActivity"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part2_1_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part2_1_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part2_2_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toRightOf="@id/part2_1_CardsWordsActivity"
+            app:layout_constraintRight_toLeftOf="@id/part2_3_CardsWordsActivity"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part2_2_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part2_2_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part2_3_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toRightOf="@id/part2_2_CardsWordsActivity"
+            app:layout_constraintRight_toLeftOf="@id/part2_4_CardsWordsActivity"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part2_3_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part2_3_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/part2_4_CardsWordsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            app:layout_constraintLeft_toRightOf="@id/part2_3_CardsWordsActivity"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/pic_part2_4_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/oldbackground_logo_round"
+                android:contentDescription="@string/picture"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_part2_4_CardsWordsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/word"
+                android:textSize="30sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="2:1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

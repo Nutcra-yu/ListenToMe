@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">听心语</string>
+    <!--    通用字符串-->
+    <string name="back">Back</string>
+    <string name="picture">picture</string>
+    <string name="intro">量表介绍</string>
+    <!--cards activity-->
+    <string name="title_CardsActivity">认知训练</string>
+    <string name="word">词语</string>
+    <string name="phrase">短语</string>
+    <string name="sentence">句子</string>
+
+<!--Access activity语言评估-->
+    <string name="name_Access">量表名称</string>
+    <string name="intro_Access">量表介绍</string>
+    <!--    ABC Access activity-->
+    <string name="title_ABC">ABC量表</string>
+    <string name="intro_ABC">孤独症行为量表（ABC量表）中列出57项孤独症（自闭症）儿童的行为特征,用于18～35月儿童，由家长或老师评分。\n\n评定只需10–15分钟便可完成。</string>
+    <!--    PCDI gesture Access activity-->
+    <string name="title_PCDIgesture">PCDI手势量表</string>
+    <string name="intro_PCDIgesture">本量表由家长填写，适用于8个月以上的儿童，用以检测儿童的语言能力，判断儿童的当前语言水平情况。填写问卷的时间因儿童发展水平的差异而不同。对语言发展较好的儿童，一般需要15~30分钟。\n\n当您说出下列词汇时，孩子虽然还不能说出来，但能正确地反应，请填第一项（听懂）。若孩子又能听懂又能够自己说出该词汇，请填第二项（能说）。\n\n假如您的孩子对该字的发音不准（例如：火车说成“火些”）或他的说法有所不同（例一：葡萄说：“萄”；例二：老鼠说成“耗子“），请填第二项（能说）。</string>
+    <!--    PCDI sentence Access activity-->
+    <string name="title_PCDIsentence">PCDI句子量表</string>
+    <string name="intro_PCDIsentence">本量表由家长填写，适用于8个月以上的儿童，用以检测儿童的语言能力，判断儿童的当前语言水平情况。填写问卷的时间因儿童发展水平的差异而不同。对语言发展较好的儿童，一般需要15~30分钟。\n\n当您说出下列词汇时，孩子虽然还不能说出来，但能正确地反应，请填第一项（听懂）。若孩子又能听懂又能够自己说出该词汇，请填第二项（能说）。\n\n假如您的孩子对该字的发音不准（例如：火车说成“火些”）或他的说法有所不同（例一：葡萄说：“萄”；例二：老鼠说成“耗子“），请填第二项（能说）。</string>
+    <!--    题目序号-->
+    <string name="number">%1$d / %2$d</string>
+    <!--    tag-->
+    <string name="tag_access">测量与评估</string>
+
+<!--Cards Activity图卡游戏-->
+    <string name="index_CardGame">n/n</string>
+    <string name="spell_CardGame">pinyin</string>
+    <string name="card_CardGame">名字</string>
+    <string name="title_activity_new_setting">NewSettingActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--old horse -->
+    <string name="add_zero">0%1$d</string>
+    <string name="whole">%1$d</string>
+
+    <!--    词语-->
+    <string name="apple">apple</string>
+    <string name="strawberry">strawberry</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/iv_back_CardsActivity"
+        style="@style/btn_back"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.35">
+
+        <ImageView
+            android:id="@+id/btn_setting_MainMenuActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_menu_imageview_setting_background"
+            android:padding="10dp"
+            android:src="@drawable/main_menu_imageview_setting_icon"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.23" />
+
+        <ImageView
+            android:id="@+id/btn_home_MainMenuActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_menu_imageview_home_background"
+            android:padding="10dp"
+            android:src="@drawable/main_menu_imageview_home_icon"
+            app:layout_constraintLeft_toRightOf="@id/btn_setting_MainMenuActivity"
+            app:layout_constraintRight_toLeftOf="@id/btn_sound_MainMenuActivity"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.23" />
+
+        <ImageView
+            android:id="@+id/btn_sound_MainMenuActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/main_menu_imageview_sound_background"
+            android:padding="10dp"
+            android:src="@drawable/main_menu_imageview_sound_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.23" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/purple_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1.67:1"
+        app:layout_constraintHeight_percent="0.77"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+
+        <ImageView
+            android:id="@+id/cardgame_iv_word"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/game_choose_word"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cardgame_iv_phrase"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6"
+            app:layout_constraintWidth_percent="0.2"/>
+
+        <ImageView
+            android:id="@+id/cardgame_iv_phrase"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/game_choose_phrase"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintLeft_toRightOf="@id/cardgame_iv_word"
+            app:layout_constraintRight_toLeftOf="@id/cardgame_iv_sentence"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6"
+            app:layout_constraintWidth_percent="0.2"/>
+
+        <ImageView
+            android:id="@+id/cardgame_iv_sentence"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/game_choose_sentence"
+            app:layout_constraintVertical_bias="0.6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintLeft_toRightOf="@id/cardgame_iv_phrase"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

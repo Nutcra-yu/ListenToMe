@@ -1,0 +1,24 @@
+[
+  {
+    "name": "袜子",
+    "pinYin": "wa zi ",
+    "ENG": "Socks"
+  },
+  {
+    "name": "鞋子",
+    "pinYin": "xie zi",
+    "ENG": "Shoes"
+  },{
+  "name": "帽子",
+  "pinYin": "mao zi",
+  "ENG": "Hat"
+  },{
+  "name": "裤子",
+  "pinYin": "ku zi",
+  "ENG": "Pants"
+  },{
+  "name": "裙子",
+  "pinYin": "qun zi",
+  "ENG": "Dress"
+  }
+]

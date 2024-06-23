@@ -1,0 +1,14 @@
+[
+  {
+    "name": "吃",
+    "pinYin": "chi ",
+    "ENG": "Eat",
+    "match": "TableWordsFood.json"
+  },
+  {
+    "name": "穿",
+    "pinYin": "chuan",
+    "ENG": "Wear",
+    "match": "TableWordsClothes.json"
+  }
+]

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#8482fb"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="评估量表测评结果"
+                android:textSize="50sp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHeight_percent="0.77"
+            app:layout_constraintWidth_percent="0.95"
+            app:layout_constraintVertical_bias="0.7">
+
+            <TableLayout
+                android:id="@+id/tablelayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_shape"
+                tools:ignore="MissingConstraints"
+                android:isScrollContainer="true"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/button1"
+                        android:height="60dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1.5dip"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="儿童昵称"
+                        android:padding="10dp"/>
+
+                    <TextView
+                        android:id="@+id/name_WordsStudyActivity1"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="李静怡"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/button3"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="性别"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/gender"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="女"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="年龄"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/age"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="6"
+                        android:textAlignment="center" />
+                    </TableRow>
+
+                <TableRow
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/button7"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+
+                            android:layout_margin="1.5dip"
+                            android:autoSizeMaxTextSize="40sp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:background="#fafafa"
+                            android:gravity="center"
+                            android:text="测试日期" />
+
+                        <TextView
+                            android:padding="10dp"
+                            android:id="@+id/button8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1.5dip"
+                            android:layout_span="5"
+                            android:autoSizeMaxTextSize="40sp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:background="#fafafa"
+                            android:gravity="center"
+                            android:text="YYYY.MM.DD HH:mm:ss" />
+
+            </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/button9"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="测试结果" />
+
+<!--                        <com.google.android.material.radiobutton.MaterialRadioButton-->
+<!--                            android:id="@+id/radar"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_margin="1.5dip"-->
+<!--                            android:layout_span="2"-->
+<!--                            android:minHeight="300dp"-->
+<!--                            android:background="#fafafa"-->
+<!--                            android:gravity="center" >-->
+<!--                        </com.google.android.material.radiobutton.MaterialRadioButton>-->
+
+                    <ImageView
+                        android:id="@+id/radar"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:layout_span="2"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:minHeight="300dp"
+                        android:src="@drawable/round_chart"
+                        />
+
+                    <TextView
+                        android:id="@+id/button10"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.5dip"
+                        android:layout_span="3"
+                        android:autoSizeMaxTextSize="40sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="#fafafa"
+                        android:gravity="center"
+                        android:text="正在加载中，请稍候..."/>
+
+                </TableRow>
+
+                </TableLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/iv_back_result"
+        style="@style/btn_back"
+        tools:ignore="MissingConstraints"
+        android:onClick="back"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

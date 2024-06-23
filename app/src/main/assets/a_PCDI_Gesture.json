@@ -1,0 +1,678 @@
+[
+  {
+    "partName": "A.初期沟通手势",
+    "preQuestion": "   当婴儿刚开始学习沟通的时候，他们经常用手势去表达他们的思想和愿望。选出以下哪些项目可以是您孩子平时所做的动作。（“有时”指的是孩子用过一次以上；“经常”指需要用的时候大部分会用到）",
+    "questions": [
+      {
+        "order": 1,
+        "questionStr": "1.举高他/她的手表示想要抱抱。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "questionStr": "2.当有人离开时，做“再见”的手势。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "questionStr": "3.抱拳表示“谢谢！”",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "questionStr": "4.指（包括手臂及手指一起伸展）向一些有趣的对象或事件。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "questionStr": "5.把他手中的玩具或对象交给你。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "questionStr": "6.“咂咂”嘴表示好吃。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "questionStr": "7.伸展他/她的手臂，显示手中握着一些东西。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 8,
+        "questionStr": "8.摇头表示“不好/不要/不想”。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 9,
+        "questionStr": "9.摊开双手表示“没有”。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 10,
+        "questionStr": "10.飞吻。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "order": 11,
+        "questionStr": "11.点头表示“好/同意”。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有时会",
+            "score": 1
+          },
+          {
+            "optionStr": "经常会",
+            "score": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "partName": "B.游戏和常做的事（自发或引导的均可）",
+    "preQuestion": "您的孩子有没有做过以下事情？",
+    "questions": [
+      {
+        "order": 1,
+        "questionStr": "1.举高他/她的手表示想要抱抱。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "questionStr": "2.当有人离开时，做“再见”的手势。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "questionStr": "3.抱拳表示“谢谢！”",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "questionStr": "4.指（包括手臂及手指一起伸展）向一些有趣的对象或事件。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "questionStr": "5.把他手中的玩具或对象交给你。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "partName": "C.动作",
+    "preQuestion": "您的孩子做过或尝试做以下的事情吗？",
+    "questions": [
+      {
+        "order": 1,
+        "questionStr": "1.把电话放在耳边。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "questionStr": "2.扔球。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "questionStr": "3.自己戴帽子。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "questionStr": "4.用杯喝东西。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "questionStr": "5.推车。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "questionStr": "6.用梳子梳自己的头发。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "questionStr": "7.自己穿袜或鞋。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 8,
+        "questionStr": "8.用勺或叉吃东西。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 9,
+        "questionStr": "9.用毛巾抹脸或手。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 10,
+        "questionStr": "10.遇到烫的食物，他会用嘴吹凉。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 11,
+        "questionStr": "11.用勺或杯子/碗内装作搅动。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 12,
+        "questionStr": "12.闻花的香味。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 13,
+        "questionStr": "13.自己戴手表/项链/手链/发卡。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 14,
+        "questionStr": "14.用牙刷刷牙。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 15,
+        "questionStr": "15.闭上眼装作睡觉。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "partName": "D.模仿做 父母",
+    "preQuestion": "这里有些动作时孩子会对毛毛动物或布娃娃做的。请指出您曾否见过您的孩子做以下的动作。",
+    "questions": [
+      {
+        "order": 1,
+        "questionStr": "1.用奶瓶.杯子或勺喂。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "questionStr": "2.吻它或拥抱它。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "questionStr": "3.拍睡觉。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "questionStr": "4.抱娃娃轻摇。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "questionStr": "5.跟它说话或唠叨。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "partName": "E.模仿成人的动作（无论用真的对象或玩具）",
+    "preQuestion": "您的孩子有没有做或尝试以下的动作？",
+    "questions": [
+      {
+        "order": 1,
+        "questionStr": "1.“看书”（拿起书一页一页地翻）。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "questionStr": "2.用BB机/手机/遥控器。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "questionStr": "3.用笔画。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "questionStr": "4.用抹布擦桌。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "questionStr": "5.戴眼镜。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "questionStr": "6.用钥匙开门。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "questionStr": "7.用扫把扫地。",
+        "options": [
+          {
+            "optionStr": "还没有",
+            "score": 0
+          },
+          {
+            "optionStr": "有",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  }
+]
